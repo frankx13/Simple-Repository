@@ -1,2 +1,2 @@
 # Simple-Repository
-Purpose : stock few codes
+Purpose : stock code of my first Web Page
