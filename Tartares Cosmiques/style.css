@@ -1,0 +1,114 @@
+/* HEAD */
+
+*
+{
+    margin:0;
+    padding: 0;
+}
+
+ul,ol
+{
+    list-style: none ;
+}
+
+.titres
+{
+    font-family: 'Pacifico', cursive;
+    color: #48E5E5;
+    text-shadow: 2px 2px 2px #000;   
+    font-size: 80px;
+    text-align: center;   
+}
+
+#moncouteau 
+{
+    background: url('images/cout.png') no-repeat;
+    background-position: right 50% bottom 60%;
+    background-size: 45% 200%;
+}
+
+
+
+/* BODY */
+
+.beta
+{
+    font-size: 25px;
+    font-family: serif;
+    font-style: italic;
+}
+
+.separation
+{
+    color: chocolate;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.madame
+{
+    color: deeppink;
+}
+
+.monsieur
+{
+    color:blue;
+}
+
+#main-menu ul
+{
+    width: 1900px;
+    height: 300px;
+    margin: 0 auto;
+}
+#main-menu #le1
+{
+    
+    float: left;
+    width: 1000px;
+    height: 500px
+
+}
+
+
+body
+{
+     background: url('images/test.jpg') repeat-x; 
+}
+
+
+h2
+{
+    border-radius: 50px;
+    border-color: black;
+    margin-top: 150px;
+    margin-left: 625px;
+    width: 700px;
+    height: 100px;
+    font-size: 55px;
+    font-family: 'Pacifico', cursive;
+    font-style: bold;
+    color: #ff0000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.description h3
+{
+    padding: 10px;
+    font-size: 26px;
+    font-family: 'Pacifico', cursive;
+    background: ;
+    color:#48E5E5;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+
+}
+.description p
+{
+    padding-top: 35px;
+    font-size: 22px;
+    font-family: 'Pacifico', cursive;
+    color:#000;
+    text-align: center;
+}
