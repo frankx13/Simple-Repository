@@ -1,5 +1,7 @@
 body {
-    background-image: 
+    height: 1250;
+    background: url(images/mainbg.png) repeat;
+    position: relative;
 }
 
 h1 {
@@ -9,9 +11,13 @@ h1 {
 
 /* Style the navigation bar */
 .navbar {
-  width: 100%;
-  background-color: #555;
-  overflow: auto;
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    display:flex;
+    justify-content:center; 
+    margin: auto;
+    text-align: center;
 }
 
 /* Navbar links */
@@ -40,4 +46,84 @@ h1 {
     float: none;
     display: block;
   }
+}
+
+.main-desc-title {
+    text-align: center;
+    color: cornflowerblue;
+    padding-top: 15px;
+}
+
+.main-desc {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: 18px;
+    color: cornflowerblue; 
+    display: inline-block;
+}
+
+/* CARD  */
+
+#icons
+{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#icons .heading h2
+{
+    color: cornflowerblue;
+}
+
+#icons .draws img
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+}
+
+
+
+
+/* section etc */
+
+section .heading
+{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+section .heading h2
+{
+    text-transform: uppercase;
+}
+
+
+.white-divider
+{
+    width: 100px;
+    height: 2px;
+    background: black;
+    margin: 0 auto;
+}
+
+/*FOOTER*/
+
+footer
+{
+    padding: 75px 0 20px;
+}
+
+
+footer h5
+{
+    color: cornflowerblue;
+    font-weight: normal;
+}
+
+#logoli
+{
+    height: 50px;
+    width: 50px;
 }
