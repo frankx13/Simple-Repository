@@ -7,6 +7,7 @@
         <link href="studportfolio/index.html">
         <link href="studtutos/index.html">
         <link href="studcontact/index.html">
+        <script src="script.js"></script>
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -26,15 +27,17 @@
         <header>
             <div id="header">
                 <h1 class="title">Studio Neopanda</h1>
+                <button onclick="getDateTime()">Voir la date</button>
+                <h1 id="p1" style="text-align: left;"></h1>
             </div>
         </header>
         
     
         <div class="navbar">
-          <a class="active" href="#"><i class="fa fa-fw fa-home"></i>Accueil</a>
-          <a href="studportfolio/index.html"><i class="fa fa-fw fa-search"></i>Portfolio</a>
-          <a href="studtutos/index.html"><i class="fa fa-fw fa-envelope"></i>Tutos</a>
-          <a href="studcontact/index.html"><i class="fa fa-fw fa-user"></i>Contact</a>
+          <a class="active" href="#">Accueil</a>
+          <a class = "inactiveport" href="studportfolio/index.html">Portfolio</a>
+          <a class = "inactivetutos" href="studtutos/index.html">Tutos</a>
+          <a class = "inactivecontact" href="studcontact/index.html">Contact</a>
         </div>
         
         <h2 class="main-desc-title">Qu'est-ce que le studio ?</h2>
